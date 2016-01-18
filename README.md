@@ -1,7 +1,7 @@
 # ServerMemo
 基本私的な感じ。
 
-なお、一部ログインが必要です(職務上知り得た秘密の流出防止やセキュリティなどの都合)。あしからず。
+なお、一部GPGのパスワードが必要です(職務上知り得た秘密の流出防止やセキュリティなどの都合)。あしからず。
 
 ### 構成
 - KUSANAGI Ubuntu
@@ -9,7 +9,7 @@
 本家KUSANAGIとの変更点
 - CentOSからUbuntu LTSに
 - preloadとか入っている
-- Let's Encrypt Standaloneを同梱(自動更新も近いうちにCronで対応)
+- Let's Encrypt Standalone & Wrapperを同梱(自動更新も近いうちにCronで対応)
 - ct_submitを同梱
 - KUSANAGIコマンドの削除(ソースコード書きなおすのがめんどくさいだけ)
 - ngx_cache_purge,ngx_ct,ngx_pagespeed入りNginx 1.9.9
@@ -22,12 +22,15 @@
 対象環境: 
 - Ubuntu 14.04 LTS
 - Debian Jessie(Expelimental Support)
+
 ```
 cd Script/
 ./setup.sh
 ```
-このあと機密ファイルが置いてあるところの情報とか聞いてくるのでそれさえ入れればOKな感じ
+
+このあと機密ファイルのパスワードとか聞いてくるのでそれさえ入れればOKな感じ
 ### ドキュメント
+
 …サーバ構築の際に使うかもしれない秘伝のタレとか入っていたり。
 
 …あといろいろというか諸々というか。
