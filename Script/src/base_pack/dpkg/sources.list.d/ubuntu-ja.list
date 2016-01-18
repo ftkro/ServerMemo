@@ -1,0 +1,6 @@
+## Ubuntu Japanese LoCo Team's repository for Ubuntu 14.04
+## Please report any bugs to https://bugs.launchpad.net/ubuntu-jp-improvement
+deb http://archive.ubuntulinux.jp/ubuntu trusty main
+deb-src http://archive.ubuntulinux.jp/ubuntu trusty main
+deb http://archive.ubuntulinux.jp/ubuntu-ja-non-free trusty multiverse
+deb-src http://archive.ubuntulinux.jp/ubuntu-ja-non-free trusty multiverse

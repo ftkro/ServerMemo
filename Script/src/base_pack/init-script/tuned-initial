@@ -1,0 +1,4 @@
+#!/bin/sh
+tuned-adm active
+tuned-adm profile throughput-performance
+rm -rf /etc/init.d/zzz999-tuned-initial

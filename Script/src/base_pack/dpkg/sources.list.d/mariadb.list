@@ -1,0 +1,2 @@
+deb [arch=i386,amd64] http://ftp.yz.yamagata-u.ac.jp/pub/dbms/mariadb/repo/10.1/ubuntu trusty main
+# deb-src [arch=i386,amd64] http://ftp.yz.yamagata-u.ac.jp/pub/dbms/mariadb/repo/10.1/ubuntu trusty main
